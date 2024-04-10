@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font01:"Dancing Script";
+    --font02: "Bitter";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    min-height: 100vh;
+    background-color:white;
+    
+        }
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+    
+}
+header h1{
+    padding-top: 50px;
+    margin: 0;
+}
+header p{
+    padding-bottom: 50px;
+    margin-top: 0;
+  color: azure;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    padding-left: 20px;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    color:black;
+}
+section{
+    padding-bottom: 20px;
+    padding-top: 10vh;
+    font-family: var(--font01);
+}
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.307);
+    display: inline-block;
+    height: 110px;
+    border-radius: 8px;
+    color: white;
+    
+
+}
+#img1{
+  background-image: url(imagens/background001.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+}
+footer{
+    background-image: linear-gradient(to left,#F0A820,#D67804,#A44004);
+    color: white;
+    text-align: center;
+   
+    
+}
+footer p{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: var(--font02);
+    color: black;
+}
+#icn1:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+    background-color: aliceblue;
+    border-radius: 8px;
+
+}
+#icn2:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    
+}
+#icn2{
+    height: 35px;
+    
+}
